@@ -1,0 +1,21 @@
+import './form.css'
+
+function Form(props) {
+  return (
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="••••••••" required />
+      </div>
+      <button type="submit" class="submit-btn">Sign In</button>
+    </form>
+  </div>)
+}
+
+export default Form;
