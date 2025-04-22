@@ -60,17 +60,11 @@
 	font-size: 1rem;
 	border: none;
 	border-radius: 8px;
-	cursor: pointer;
 	transition: background-color 0.2s;
-  }
-
-  .submit-btn:hover {
-	background-color: #498be2;
   }
 
   .error {
 	color: #e74c3c;
 	font-size: 0.875rem;
 	margin-top: 0.5rem;
-	/* display: none; */
   }
