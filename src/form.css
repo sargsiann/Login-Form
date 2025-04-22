@@ -67,3 +67,10 @@
   .submit-btn:hover {
 	background-color: #498be2;
   }
+
+  .error {
+	color: #e74c3c;
+	font-size: 0.875rem;
+	margin-top: 0.5rem;
+	/* display: none; */
+  }
